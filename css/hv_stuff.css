@@ -1,0 +1,18 @@
+aside{
+ background-color:#A3504C;
+ position:fixed;
+ left: 0;
+ top:0;
+ width:20%;
+ height: 100%;
+}
+aside ul {
+ display:block;
+ margin:10em 3em;
+
+}
+aside nav ul li{
+ color:white;
+ display:block;
+ margin:1em 0;
+}
