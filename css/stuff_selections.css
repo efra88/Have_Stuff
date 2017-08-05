@@ -1,0 +1,80 @@
+.productopreview {
+
+}
+
+#texto_categoria{
+  vertical-align: : center;
+  display: inline;
+  background-color: #990000;
+  color: white;
+}
+.productopreview .image-wrapper{
+  height: 0px;
+  padding: 56.52% 0 0;
+  background-image: url(../Imagenes);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.productopreview .name{
+  text-align: center;
+}
+.productopreview#zapatos1 .image-wrapper{
+  background-image: url(../Imagenes/zapatos1.jpg);
+}
+
+.productopreview#zapatos2 .image-wrapper{
+  background-image: url(../Imagenes/zapatos2.jpg);
+}
+
+.productopreview#zapatos3 .image-wrapper{
+  background-image: url(../Imagenes/zapatos3.jpg);
+}
+
+
+.productopreview#vestidos1 .image-wrapper{
+  background-image: url(../Imagenes/vestidos1.jpg);
+}
+
+.productopreview#vestidos2 .image-wrapper{
+  background-image: url(../Imagenes/vestidos2.jpg);
+}
+
+.productopreview#vestidos3 .image-wrapper{
+  background-image: url(../Imagenes/vestidos3.jpg);
+}
+
+
+.productopreview#chamarras1 .image-wrapper{
+  background-image: url(../Imagenes/chamarras1.jpg);
+}
+
+.productopreview#chamarras2 .image-wrapper{
+  background-image: url(../Imagenes/chamarras2.jpg);
+}
+
+.productopreview#chamarras3 .image-wrapper{
+  background-image: url(../Imagenes/chamarras3.jpg);
+}
+
+.productopreview#accesorios1 .image-wrapper{
+  background-image: url(../Imagenes/accesorios1.jpg);
+}
+
+.productopreview#accesorios2 .image-wrapper{
+  background-image: url(../Imagenes/accesorios2.jpg);
+}
+
+.productopreview#accesorios3 .image-wrapper{
+  background-image: url(../Imagenes/accesorios3.jpg);
+}
+
+#row_seleccionados {
+  margin: 5em 0;
+}
+
+#row_seleccionados .productopreview {
+height: 100px;
+}
