@@ -8,6 +8,16 @@
   background-color: #990000;
   color: white;
 }
+
+#texto_seleccion{
+margin: 5em 0;
+margin-bottom:0;
+  vertical-align: : center;
+  display: inline;
+  background-color: black;
+  color: white;
+}
+
 .productopreview .image-wrapper{
   height: 0px;
   padding: 56.52% 0 0;
@@ -72,7 +82,7 @@
 }
 
 #row_seleccionados {
-  margin: 5em 0;
+margin: 5em 0;
 }
 
 #row_seleccionados .productopreview {
