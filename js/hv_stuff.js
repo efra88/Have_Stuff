@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var items = [{}];
-  
+
 
     function fillCategorySelect(){
         categories.forEach(function callback( element, index ){
@@ -18,8 +18,8 @@ $(document).ready(function(){
             var category_items_length = element.items.length;
             var my_style = 'style="background-color:'+element.background+'; color:'+element.color+'"';
             if( category_items_length > 0 ){
-                items_html += '<li '+my_style+'>'+category_items_length+' '+element.name+'</li>';
-                items_html += '<li '+my_style+'>'+element.items.toString()+'</li>';
+                items_html += '<li class="list-group-item" '+my_style+'>'+category_items_length+' '+element.name+'</li>';
+                items_html += '<li class="list-group-item" '+my_style+'>'+element.items.toString()+'</li>';
                 items_length += category_items_length;
             }
 
