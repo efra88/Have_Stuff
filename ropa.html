@@ -29,11 +29,6 @@
               <div class="form-group">
                 <label for="my_category">Categoría</label>
                 <select name="" id="my_category" class="form-control"></select>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
               </div>
             </div>
             <div class="col-xs-9">
@@ -44,33 +39,37 @@
             </div>
           </div>
         </form>
-        <p id="counter"></p>
-        <ul  id="items_list"></ul>
+        <div class="row">
+          <div class="col-xs-12">
+            <p  id="counter"></p>
+            <ul class="list-group" id="items_list"></ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <script>
-  var categories = [
-      {
-          name: 'Zapatos',
+      <script>
+      var categories = [
+        {
+          name: 'Calzado',
           items : []
-      }, {
+        }, {
           name: 'Chamarras Sueter',
           items : []
-      }, {
+        }, {
           name: 'Camisas',
           items : []
-      },{
+        },{
           name: 'Pantalones',
           items : []
-      },{
+        },{
           name: 'playeras',
           items : []
-      }
-  ];
+        }
+      ];
 
-  </script>
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="js/hv_stuff.js"></script>
-</body>
-</html>
+      </script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="js/hv_stuff.js"></script>
+    </body>
+    </html>

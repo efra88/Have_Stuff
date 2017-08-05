@@ -14,7 +14,12 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="">
   </nav>
-
+  <nav>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+  </nav>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 text-center">
@@ -29,11 +34,6 @@
               <div class="form-group">
                 <label for="my_category">Categoría</label>
                 <select name="" id="my_category" class="form-control"></select>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
               </div>
             </div>
             <div class="col-xs-9">
@@ -44,26 +44,30 @@
             </div>
           </div>
         </form>
-        <p id="counter"></p>
-        <ul  id="items_list"></ul>
+        <div class="row">
+          <div class="col-xs-12">
+            <p  id="counter"></p>
+            <ul class="list-group" id="items_list"></ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <script>
   var categories = [
-      {
-          name: 'musica',
-          items : []
-      }, {
-          name: 'muebles',
-          items : []
-      }, {
-          name: 'juegos',
-          items : []
-      },{
-          name: 'decoracion',
-          items : []
-      },
+    {
+      name: 'musica',
+      items : []
+    }, {
+      name: 'muebles',
+      items : []
+    }, {
+      name: 'juegos',
+      items : []
+    },{
+      name: 'decoracion',
+      items : []
+    },
   ];
 
   </script>
