@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://bootswatch.com/united/bootstrap.min.css">
+  <link rel="stylesheet" href="css/hv_stuff.css">
+  <title> Have_Stuff</title>
+</head>
+<body>
+  <aside>
+    <nav>
+      <ul>
+        <a href="ropa.html"><li>Ropa</li></a>
+        <a href="herramientas.html"><li>Herramientas</li></a>
+        <a href="articulos_viaje.html"><li>articulos Viaje</li></a>
+        <a href="articulos_fiesta"><li>Articulos de fiesta</li></a>
+      </ul>
+    </nav>
+  </aside>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h1 class="display-1">Presta tu Ropa</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-3 col-md-6">
+        <form action="" id="adding_list">
+          <div class="row">
+            <div class="col-xs-3">
+              <div class="form-group">
+                <label for="my_category">Categoría</label>
+                <select name="" id="my_category" class="form-control"></select>
+              </div>
+            </div>
+            <div class="col-xs-9">
+              <div class="form-group">
+                <label for="my_item">Nuevo elemento</label>
+                <input type="text" class="form-control" id="my_item" placeholder="Agrega un elemento">
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col-xs-12">
+            <p  id="counter"></p>
+            <ul class="list-group" id="items_list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  var categories = [
+    {
+      name: 'musica',
+      items : []
+    }, {
+      name: 'muebles',
+      items : []
+    }, {
+      name: 'juegos',
+      items : []
+    },{
+      name: 'decoracion',
+      items : []
+    },
+  ];
+
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/hv_stuff.js"></script>
+</body>
+</html>
